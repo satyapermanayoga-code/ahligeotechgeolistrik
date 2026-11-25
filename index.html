@@ -49,6 +49,7 @@ nav{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 92%,t
 nav .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:6px 22px;padding:10px max(5vw,16px)}
 .logo{font:700 24px "Barlow Condensed",sans-serif;color:var(--ink);text-decoration:none;margin-right:auto;display:flex;align-items:center;gap:8px}
 .logo svg{width:28px;height:28px}
+nav .links{display:contents}
 nav a.l{color:var(--ink);text-decoration:none;font-weight:500;padding:10px 0}
 nav a.l:hover{color:var(--blue)}
 .btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 22px;border-radius:6px;font-weight:600;text-decoration:none;border:2px solid transparent}
@@ -118,11 +119,12 @@ footer a{color:#f3ece4}
 <body>
 <nav aria-label="Menu utama"><div class="wrap">
   <a class="logo" href="#top"><svg viewBox="0 0 28 28" aria-hidden="true"><rect y="4" width="28" height="6" fill="#c98a2e"/><rect y="12" width="28" height="6" fill="#1d5fd1"/><rect y="20" width="28" height="6" fill="#8a5a2b"/><rect x="12" y="0" width="4" height="26" fill="currentColor"/></svg>GeoSurvey Nusantara</a>
-  <span class="links" style="display:contents">
+  <span class="links">
     <a class="l" href="#layanan">Layanan</a>
     <a class="l" href="#alat">Jual Alat</a>
     <a class="l" href="#wilayah">Wilayah</a>
     <a class="l" href="#proses">Proses</a>
+    <a class="l" href="#artikel">Artikel</a>
     <a class="l" href="#faq">FAQ</a>
   </span>
   <a class="btn wa" href="https://wa.me/6285335245295">WhatsApp</a>
@@ -241,6 +243,16 @@ footer a{color:#f3ece4}
   </ul>
 </div></section>
 
+<section class="band" id="artikel"><div class="wrap">
+  <div class="lead">
+    <h2>Artikel dan panduan</h2>
+    <p>Penjelasan praktis seputar geolistrik, uji tanah, dan survei LiDAR untuk membantu Anda memilih metode yang tepat sebelum proyek dimulai.</p>
+  </div>
+  <div class="reg">
+    <article class="card"><h3><a href="/artikel/beda-sondir-dan-boring-spt.html">Beda sondir dan boring SPT: mana yang dibutuhkan proyek Anda?</a></h3><p>Cara kerja, data yang dihasilkan, kelebihan, keterbatasan, dan kapan masing-masing uji tanah dipakai.</p></article>
+  </div>
+</div></section>
+
 <section class="band shop" id="faq"><div class="wrap faq">
   <h2>Pertanyaan yang sering diajukan</h2>
   <div>
@@ -260,7 +272,7 @@ footer a{color:#f3ece4}
 <footer class="band"><div class="wrap">
   <div><b>GeoSurvey Nusantara</b>Jasa geolistrik, sondir, boring SPT, survei LiDAR, dan penjualan alat geolistrik untuk seluruh Indonesia.</div>
   <div><b>Kontak</b>WhatsApp: <a href="https://wa.me/6285335245295">0853-3524-5295</a><br>Kantor Jakarta (dengan janji temu):<br>City Tower Lantai 12, Jl. M.H. Thamrin, Menteng, Jakarta Pusat<br>Jam kerja: Senin–Sabtu, 08.00–17.00</div>
-  <div><b>Layanan</b><a href="#layanan">Jasa geolistrik</a><br><a href="#layanan">Jasa sondir</a><br><a href="#layanan">Jasa boring SPT</a><br><a href="#layanan">Jasa LiDAR</a><br><a href="#alat">Jual alat geolistrik</a></div>
+  <div><b>Layanan</b><a href="#layanan">Jasa geolistrik</a><br><a href="#layanan">Jasa sondir</a><br><a href="#layanan">Jasa boring SPT</a><br><a href="#layanan">Jasa LiDAR</a><br><a href="#alat">Jual alat geolistrik</a><br><a href="#artikel">Artikel</a></div>
 </div>
 </footer>
 
