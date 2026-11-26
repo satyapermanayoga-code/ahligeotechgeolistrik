@@ -9,7 +9,8 @@ Catatan: peringkat diambil dari alat WebSearch (bukan Google Indonesia langsung)
 - Sitemap berisi 4 URL: beranda, artikel/beda-sondir-dan-boring-spt.html, wilayah/jakarta.html, portofolio.html. Semua halaman HTML di repo sudah masuk sitemap (kecuali file verifikasi Google, memang tidak perlu).
 - Judul dan meta description: terisi dan unik di keempat halaman; canonical benar.
 - Link internal: tidak ada link/gambar rusak ditemukan.
-- Situs live belum bisa dibuka dari cloud pada run ini (fetch ke domain diblokir/izin tidak terjawab), jadi status HTTP live belum terverifikasi.
+- Cek live (diulang siang hari setelah izin akses domain dijawab): keempat halaman di sitemap terbuka HTTP 200, konten lengkap, judul sesuai. Deploy GitHub Pages terakhir sukses.
+- Catatan: sitemap.xml dan meta description beranda yang terbaca di live masih versi lama (sitemap 2 URL). Kemungkinan cache; deploy sudah sukses, cek ulang besok.
 - Perbaikan: tidak ada yang perlu diperbaiki.
 
 **Status indeks:**
