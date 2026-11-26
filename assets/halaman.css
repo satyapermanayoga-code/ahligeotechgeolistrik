@@ -57,3 +57,6 @@ footer .wrap{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px
 footer b{color:#fff;display:block;margin-bottom:6px}
 footer a{color:#f3ece4}
 @media(max-width:720px){nav .links{display:none}footer .wrap{grid-template-columns:minmax(0,1fr)}}
+.foto{margin:0 0 1.4em;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+.foto img{display:block;width:100%;height:auto}
+.foto figcaption{padding:10px 14px 12px;font-size:14px;color:var(--mute)}
