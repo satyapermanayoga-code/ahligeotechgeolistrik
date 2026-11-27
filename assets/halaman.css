@@ -60,3 +60,5 @@ footer a{color:#f3ece4}
 .foto{margin:0 0 1.4em;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
 .foto img{display:block;width:100%;height:auto}
 .foto figcaption{padding:10px 14px 12px;font-size:14px;color:var(--mute)}
+
+@media(max-width:480px){.logo{font-size:19px}}
