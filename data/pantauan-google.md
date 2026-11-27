@@ -39,9 +39,10 @@ Pengamatan: hasil WebSearch didominasi jurnal/PDF kampus dan marketplace; sediki
 - Link internal dan gambar: tidak ada yang rusak.
 - Perbaikan: tidak ada yang perlu diperbaiki.
 
-**Cek live: TIDAK BISA dilakukan.** WebFetch ke keenam URL (5 halaman + sitemap.xml) gagal dengan PROVENANCE_REQUIRED (izin akses domain ahligeotechgeolistrik.co.id tidak dijawab tepat waktu). Pemilik perlu memilih "selalu izinkan" untuk domain ini.
-- Cadangan: deploy GitHub Pages terbaru ("pages build and deployment" #13, commit e818a6c = commit terakhir di main, artikel air tanah) berstatus **success** (27 Nov 02:50 UTC). Lima deploy terakhir semuanya sukses.
-- Belum bisa dipastikan apakah sitemap.xml live sudah versi baru (kemarin live masih versi lama).
+**Cek live (diulang setelah pemilik memilih "selalu izinkan"):** berhasil. Kelima halaman dan sitemap.xml terbuka HTTP 200, konten lengkap, judul sesuai repo.
+- sitemap.xml live sudah versi baru: 5 URL dengan lastmod sama dengan repo (masalah cache kemarin sudah beres).
+- Meta description beranda yang terbaca di live masih teks lama ("...cari titik air tanah... Tim lapangan berpengalaman..."), berbeda dari repo ("...georadar (GPR) dan pipe locator, LiDAR, topografi drone... Melayani seluruh Indonesia..."). Halaman lain cocok. Kemungkinan cache alat pengambil halaman; deploy sudah sukses. Cek ulang besok.
+- Percobaan pertama pagi ini sempat gagal (PROVENANCE_REQUIRED); saat itu dipakai cadangan: deploy GitHub Pages #13 (commit e818a6c) sukses.
 
 **Status indeks:**
 - `site:ahligeotechgeolistrik.co.id`: belum ada hasil dari domain ini.
