@@ -15,7 +15,7 @@ Catatan: peringkat diambil dari alat WebSearch (bukan Google Indonesia langsung)
 
 **Status indeks:**
 - `site:ahligeotechgeolistrik.co.id`: belum ada hasil dari domain ini.
-- Pencarian judul artikel "Beda Sondir dan Boring SPT" dan nama "GeoSurvey Nusantara": belum muncul.
+- Pencarian judul artikel "Beda Sondir dan Boring SPT" dan nama "Ahli Geotech Geolistrik Nusantara": belum muncul.
 - Kesimpulan: belum ada halaman yang terlihat terindeks (situs masih baru).
 
 **Kata kunci (perkiraan):**
@@ -46,7 +46,7 @@ Pengamatan: hasil WebSearch didominasi jurnal/PDF kampus dan marketplace; sediki
 
 **Status indeks:**
 - `site:ahligeotechgeolistrik.co.id`: belum ada hasil dari domain ini.
-- Pencarian judul "Geolistrik untuk Mencari Air Tanah: Cara Kerja dan Tahapannya", "Beda Sondir dan Boring SPT: Mana yang Dibutuhkan Proyek Anda", dan nama "GeoSurvey Nusantara": belum muncul. (Nama mirip "Geo Survey Nusantara" muncul di resource.geospatialworld.net, itu entri perusahaan lain/direktori, bukan situs ini.)
+- Pencarian judul "Geolistrik untuk Mencari Air Tanah: Cara Kerja dan Tahapannya", "Beda Sondir dan Boring SPT: Mana yang Dibutuhkan Proyek Anda", dan nama "Ahli Geotech Geolistrik Nusantara": belum muncul. (Nama mirip "Geo Survey Nusantara" muncul di resource.geospatialworld.net, itu entri perusahaan lain/direktori, bukan situs ini.)
 - Kesimpulan: belum ada halaman yang terlihat terindeks.
 
 **Kata kunci (perkiraan):**
