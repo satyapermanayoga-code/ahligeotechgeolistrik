@@ -61,3 +61,10 @@ Pengamatan: hasil WebSearch didominasi jurnal/PDF kampus dan marketplace; sediki
 | jual alat geolistrik | Tidak | tokopedia.com, blog-distributoralatgeofisika.blogspot.com, tokopedia.com/alatgeo |
 
 Pengamatan: hampir sama dengan kemarin. Baru terlihat: disway.id juga punya artikel "Memahami Metode Geolistrik" (peringkat 4 untuk "jasa geolistrik"); halorobotics.com punya artikel "LiDAR vs Photogrammetry, apa bedanya" dan ukdn.geo.ugm.ac.id menawarkan survei topografi UAV + LiDAR. Peluang topik: artikel LiDAR (misalnya perbandingan LiDAR vs fotogrametri untuk proyek) karena pesaing jasa LiDAR berbahasa Indonesia masih sedikit; halaman "jual alat geolistrik" yang informatif (pesaing kebanyakan marketplace).
+
+## 2026-11-28 (audit teknis Sabtu)
+
+- Link internal, gambar, anchor, canonical, H1, lang, viewport, JSON-LD: semua valid, tidak ada yang rusak. Nama lama "GeoSurvey" tidak ditemukan.
+- Mobile (360/390 px): tidak ada scroll horizontal di 6 halaman.
+- Diperbaiki: judul terlalu panjang (79–93 karakter) dipendekkan di beranda, jual alat, portofolio, Jakarta; meta description dipangkas ke ±160 karakter di 6 halaman; tambah favicon (SVG, PNG 48 px, apple-touch-icon); tambah preconnect fonts.gstatic.com; tambah og:image di beranda, portofolio, dan 2 artikel; gambar utama halaman jual alat diberi fetchpriority="high".
+- Gambar sudah terkompresi (kompres ulang tidak menghemat >15%); file brosur tidak disentuh.
