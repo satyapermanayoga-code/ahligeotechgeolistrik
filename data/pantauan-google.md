@@ -68,3 +68,32 @@ Pengamatan: hampir sama dengan kemarin. Baru terlihat: disway.id juga punya arti
 - Mobile (360/390 px): tidak ada scroll horizontal di 6 halaman.
 - Diperbaiki: judul terlalu panjang (79–93 karakter) dipendekkan di beranda, jual alat, portofolio, Jakarta; meta description dipangkas ke ±160 karakter di 6 halaman; tambah favicon (SVG, PNG 48 px, apple-touch-icon); tambah preconnect fonts.gstatic.com; tambah og:image di beranda, portofolio, dan 2 artikel; gambar utama halaman jual alat diberi fetchpriority="high".
 - Gambar sudah terkompresi (kompres ulang tidak menghemat >15%); file brosur tidak disentuh.
+
+## 2026-11-28 (pantauan harian)
+
+**Kesehatan website (dicek dari repo):**
+- Sitemap berisi 6 URL: beranda, 2 artikel, wilayah/jakarta.html, portofolio.html, jual-alat-geolistrik.html. Semua halaman HTML di repo sudah masuk sitemap (kecuali file verifikasi Google).
+- Judul (52–72 karakter) dan meta description (160–165 karakter): terisi dan unik di keenam halaman.
+- Link internal dan gambar: tidak ada yang rusak. Nama lama "GeoSurvey Nusantara": tidak ditemukan di halaman mana pun.
+- Diperbaiki: lastmod di sitemap.xml diperbarui ke 2026-11-28 untuk keenam halaman (semuanya diubah oleh audit teknis pagi ini, tetapi lastmod masih 25–27 November).
+- Cek live: gagal, akses ke domain ditolak alat pengambil halaman (PROVENANCE_REQUIRED, izin tidak dijawab karena tugas berjalan tanpa pengawasan). Status deploy GitHub Pages dicek sebagai cadangan (lihat ringkasan run).
+
+**Status indeks:**
+- `site:ahligeotechgeolistrik.co.id`: belum ada hasil dari domain ini (hasil yang keluar hanya jurnal kampus yang tidak terkait).
+- Pencarian nama "Ahli Geotech Geolistrik Nusantara" dan judul "Jual Alat Geolistrik Geotech | Harga Mulai Rp40 Juta": belum muncul.
+- Kesimpulan: belum ada halaman yang terlihat terindeks (hari ke-3 pemantauan).
+
+**Kata kunci (perkiraan):**
+
+| Kata kunci | Website muncul? | 3 hasil teratas |
+|---|---|---|
+| jual alat geolistrik (prioritas) | Tidak | tokopedia.com (toko dimwit), blog-distributoralatgeofisika.blogspot.com, tokopedia.com/alatgeo |
+| harga alat geolistrik | Tidak | its.ac.id (SOP alat geolistrik, PDF), journal.unindra.ac.id, margasetiateknik.jejualan.com (ADMT-300ZN) |
+| jasa geolistrik | Tidak | pse.ugm.ac.id (jasa survei geofisika air tanah), detik.com (sumur bor), e-journal.unipma.ac.id |
+| jasa geolistrik jakarta | Tidak | detik.com, pse.ugm.ac.id, detik.com |
+| jasa sondir jakarta | Tidak | disway.id (artikel jasa sondir Jakarta), clutch.co, olx.co.id |
+| jasa boring SPT | Tidak | id.scribd.com (prosedur boring & SPT), ejournal2.undip.ac.id, repository.ubb.ac.id |
+| jasa georadar | Tidak | wikipedia (Ground-penetrating radar), wikipedia, geotech.hr (Kroasia) |
+| jasa survei LiDAR | Tidak | elsa.brin.go.id (drone LiDAR), id.linkedin.com, au.linkedin.com (Geoconsol) |
+
+Pengamatan: "harga alat geolistrik" dan "jasa georadar" baru dipantau hari ini. Untuk "harga alat geolistrik" hampir tidak ada halaman penjual dengan daftar harga jelas (kebanyakan PDF kampus; penjual: margasetiateknik.jejualan.com, tokopedia alatgeo), jadi halaman jual alat yang mencantumkan harga punya peluang. "jasa georadar" didominasi situs luar negeri/Wikipedia; penyedia jasa GPR berbahasa Indonesia hampir tidak terlihat (hanya testingindonesia.co.id "jasa NDT" dan indotrading "jual georadar"), jadi ini peluang topik bagi maintenance pagi.
